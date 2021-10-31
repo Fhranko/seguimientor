@@ -4,7 +4,7 @@ const axios = require('axios');
 const sgMail = require('@sendgrid/mail');
 const moment = require('moment');
 
-const token = 'secret_DOIjs0vl1V02sGCRlNHM7O5Kat6zqMf7FCQQIHKmqHT';
+const token = 'token here'
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
